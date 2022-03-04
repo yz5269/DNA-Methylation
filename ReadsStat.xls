@@ -1,22 +1,22 @@
 #RawData 
-Total Reads:	1220766
-Total Bases:	183114900
+Total Reads:	967094
+Total Bases:	145064100
 Read Length:	150
-GC%:	37.23%
-AT%:	62.77%
+GC%:	35.96%
+AT%:	64.04%
 N BaseNum:	0(0.00%)
 >Q10:	99.69%
->Q20:	94.04%
->Q30:	86.63%
+>Q20:	93.75%
+>Q30:	86.14%
 
 
 #CleanData 
-Total Reads:	1297100
-Total Bases:	189134507
+Total Reads:	1031546
+Total Bases:	150228954
 Read Length:	149
-GC%:	37.00%
-AT%:	62.99%
-N BaseNum:	20742(0.01%)
+GC%:	35.80%
+AT%:	64.19%
+N BaseNum:	16194(0.01%)
 >Q10:	99.79%
->Q20:	94.86%
->Q30:	87.85%
+>Q20:	94.62%
+>Q30:	87.43%
