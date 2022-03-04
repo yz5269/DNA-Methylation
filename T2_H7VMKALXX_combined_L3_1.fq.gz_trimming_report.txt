@@ -1,0 +1,176 @@
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: /nas2/Project/AmpliconBS/batch7_ZGM_human_20samples/links/T2_H7VMKALXX_combined_L3_1.fq.gz
+Trimming mode: paired-end
+Trim Galore version: 0.4.2
+Cutadapt version: 1.12+14.gc25c184.dirty
+Quality Phred score cutoff: 20
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'AGATCGGAAGAGC' (Illumina TruSeq, Sanger iPCR; auto-detected)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 20 bp
+All sequences will be trimmed by 1 bp on their 3' end to avoid problems with invalid paired-end alignments with Bowtie 1
+Running FastQC on the data once trimming has completed
+Running FastQC with the following extra arguments: -q
+Output file will be GZIP compressed
+
+
+/usr/lib/python2.7/site-packages/pkg_resources.py:1054: UserWarning: /home/lyb/.python-eggs is writable by group/others and vulnerable to attack when used with get_resource_filename. Consider a more secure location (set with .set_extraction_path or the PYTHON_EGG_CACHE environment variable).
+  warnings.warn(msg, UserWarning)
+This is cutadapt 1.12+14.gc25c184.dirty with Python 2.7.5
+Command line parameters: -f fastq -e 0.1 -q 20 -O 1 -a AGATCGGAAGAGC /nas2/Project/AmpliconBS/batch7_ZGM_human_20samples/links/T2_H7VMKALXX_combined_L3_1.fq.gz
+Trimming 1 adapter with at most 10.0% errors in single-end mode ...
+Finished in 9.60 s (18 us/read; 3.26 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                 522,369
+Reads with adapters:                   214,128 (41.0%)
+Reads written (passing filters):       522,369 (100.0%)
+
+Total basepairs processed:    78,355,350 bp
+Quality-trimmed:                 881,254 bp (1.1%)
+Total written (filtered):     76,714,096 bp (97.9%)
+
+=== Adapter 1 ===
+
+Sequence: AGATCGGAAGAGC; Type: regular 3'; Length: 13; Trimmed: 214128 times.
+
+No. of allowed errors:
+0-9 bp: 0; 10-13 bp: 1
+
+Bases preceding removed adapters:
+  A: 57.1%
+  C: 11.8%
+  G: 5.5%
+  T: 25.5%
+  none/other: 0.1%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	171748	130592.2	0	171748
+2	9705	32648.1	0	9705
+3	11589	8162.0	0	11589
+4	536	2040.5	0	536
+5	456	510.1	0	456
+6	613	127.5	0	613
+7	653	31.9	0	653
+8	271	8.0	0	271
+9	261	2.0	0	257 4
+10	831	0.5	1	807 24
+11	363	0.1	1	339 24
+12	322	0.0	1	300 22
+13	332	0.0	1	314 18
+14	370	0.0	1	352 18
+15	1725	0.0	1	1663 62
+16	433	0.0	1	412 21
+17	459	0.0	1	427 32
+18	378	0.0	1	363 15
+19	334	0.0	1	316 18
+20	638	0.0	1	605 33
+21	2924	0.0	1	2833 91
+22	392	0.0	1	378 14
+23	280	0.0	1	269 11
+24	238	0.0	1	224 14
+25	160	0.0	1	156 4
+26	272	0.0	1	255 17
+27	453	0.0	1	426 27
+28	500	0.0	1	457 43
+29	464	0.0	1	440 24
+30	965	0.0	1	928 37
+31	226	0.0	1	217 9
+32	118	0.0	1	114 4
+33	108	0.0	1	101 7
+34	182	0.0	1	172 10
+35	245	0.0	1	235 10
+36	423	0.0	1	415 8
+37	175	0.0	1	168 7
+38	187	0.0	1	175 12
+39	174	0.0	1	167 7
+40	387	0.0	1	375 12
+41	298	0.0	1	277 21
+42	98	0.0	1	90 8
+43	229	0.0	1	225 4
+44	162	0.0	1	156 6
+45	141	0.0	1	135 6
+46	58	0.0	1	56 2
+47	270	0.0	1	262 8
+48	156	0.0	1	150 6
+49	112	0.0	1	107 5
+50	84	0.0	1	78 6
+51	62	0.0	1	56 6
+52	58	0.0	1	56 2
+53	56	0.0	1	53 3
+54	80	0.0	1	78 2
+55	52	0.0	1	49 3
+56	44	0.0	1	43 1
+57	45	0.0	1	43 2
+58	52	0.0	1	50 2
+59	41	0.0	1	40 1
+60	35	0.0	1	35
+61	55	0.0	1	53 2
+62	30	0.0	1	30
+63	50	0.0	1	48 2
+64	54	0.0	1	51 3
+65	20	0.0	1	18 2
+66	51	0.0	1	46 5
+67	99	0.0	1	94 5
+68	38	0.0	1	35 3
+69	41	0.0	1	36 5
+70	27	0.0	1	22 5
+71	88	0.0	1	34 54
+72	281	0.0	1	263 18
+73	70	0.0	1	61 9
+74	21	0.0	1	16 5
+75	17	0.0	1	16 1
+76	10	0.0	1	7 3
+77	5	0.0	1	4 1
+78	9	0.0	1	9
+79	6	0.0	1	5 1
+80	7	0.0	1	7
+81	5	0.0	1	5
+82	4	0.0	1	4
+83	9	0.0	1	8 1
+84	6	0.0	1	4 2
+85	4	0.0	1	4
+86	1	0.0	1	1
+87	2	0.0	1	1 1
+88	3	0.0	1	3
+89	5	0.0	1	4 1
+90	4	0.0	1	3 1
+91	3	0.0	1	3
+92	1	0.0	1	1
+93	4	0.0	1	4
+94	2	0.0	1	2
+95	2	0.0	1	2
+96	1	0.0	1	1
+97	1	0.0	1	1
+98	3	0.0	1	3
+99	6	0.0	1	6
+100	1	0.0	1	1
+101	1	0.0	1	1
+102	3	0.0	1	2 1
+103	1	0.0	1	0 1
+104	2	0.0	1	2
+105	5	0.0	1	4 1
+107	1	0.0	1	1
+108	2	0.0	1	2
+109	3	0.0	1	2 1
+113	1	0.0	1	1
+114	1	0.0	1	0 1
+120	1	0.0	1	0 1
+128	1	0.0	1	1
+138	1	0.0	1	0 1
+139	1	0.0	1	0 1
+146	1	0.0	1	0 1
+148	2	0.0	1	0 2
+149	4	0.0	1	0 4
+150	28	0.0	1	0 28
+
+
+RUN STATISTICS FOR INPUT FILE: /nas2/Project/AmpliconBS/batch7_ZGM_human_20samples/links/T2_H7VMKALXX_combined_L3_1.fq.gz
+=============================================
+522369 sequences processed in total
+
